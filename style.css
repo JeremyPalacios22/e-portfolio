@@ -1,0 +1,100 @@
+#particles-js {
+    position: fixed; 
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0073e6;
+}
+  
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #0073e6; 
+}
+
+.header {
+    position: relative;
+    color: #fff;
+    z-index: 1; 
+    padding: 15px 0; 
+    text-align: center;
+}
+  
+.section {
+    position: relative; 
+    z-index: 1; 
+    padding: 15px; 
+    margin: 15px auto; 
+    max-width: 600px; 
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    color: #0073e6;
+    margin-bottom: 8px; 
+    font-size: 1.5rem; 
+}
+  
+.about-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.profile-pic {
+    border-radius: 8px;
+    width: 250px; 
+    height: 300px; 
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.apq-pck-content {
+    line-height: 1.4; 
+}
+  
+.resume-content ul {
+    list-style-type: square;
+    margin: 8px 0; 
+    padding-left: 18px; 
+}
+  
+.resume-content h3 {
+    margin-top: 15px;
+    color: #0073e6;
+    font-size: 1.3rem; 
+}
+  
+#links ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+  
+#links li {
+    margin: 8px 0; 
+}
+  
+#links a {
+    text-decoration: none;
+    color: #0073e6;
+    font-weight: bold;
+    font-size: 0.9rem; 
+}
+  
+#links a:hover {
+    text-decoration: underline;
+}
+  
+@media (max-width: 768px) {
+    .section {
+        margin: 8px; 
+        padding: 12px; 
+    }
+}
